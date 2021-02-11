@@ -1,3 +1,10 @@
 #include<iostream>
+#include "producto.h"
+using namespace std;
 int main()
 {
+	producto A;
+	A.ingre_datos();
+	A.mostrar_datos();
+	std::cout<<"Hola mundo";
+}
