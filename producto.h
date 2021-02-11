@@ -15,9 +15,12 @@ class producto
 };
 void producto::ingre_datos()
 {
+	cout<<"ingrese nombre:";
 	cin.getline(nombre,60);
+	cout<<"\ningrese costo unitario:";
 	cin>>cost_unt;
+	cout<<"\ningrese el stock:";
 	cin>>stock;
-	cin>>categoria;
-	cin>>estado;
+	cout<<"\nIngrese la catogaria:";cin>>categoria;
+	cout<<"\nIngrese el estada: ";cin>>estado;
 }
