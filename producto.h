@@ -12,6 +12,7 @@ class producto
 			char estado;
 	public:
 		void ingre_datos();
+		void mostrar_datos();
 };
 void producto::ingre_datos()
 {
@@ -23,4 +24,12 @@ void producto::ingre_datos()
 	cin>>stock;
 	cout<<"\nIngrese la catogaria:";cin>>categoria;
 	cout<<"\nIngrese el estada: ";cin>>estado;
+}
+void producto::mostrar_datos()
+{
+	cout<<nombre;
+	cout<<endl<<cost_unt;
+	cout<<endl<<stock;
+	cout<<endl<<categoria;
+	cout<<endl<<estado;
 }
