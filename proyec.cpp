@@ -1,5 +1,6 @@
 #include<iostream>
 #include "producto.h"
+#include "func_decord.h"
 using namespace std;
 int main()
 {
